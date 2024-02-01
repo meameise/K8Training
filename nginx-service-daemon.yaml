@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-service-daemon
+  name: nginx-daemon
 spec:
   selector:
     app: nginx
