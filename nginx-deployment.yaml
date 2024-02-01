@@ -14,8 +14,10 @@ spec:
       labels:
         app: nginx
     spec:
+      imagePullSecrets:
+      - name: mydockerhub
       containers:
       - name: nginx
-        image: nginx:latest
+        image: meameise/meak8-webapp:latest
         ports:
         - containerPort: 8082
