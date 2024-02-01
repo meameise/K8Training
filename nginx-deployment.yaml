@@ -20,4 +20,4 @@ spec:
       - name: nginx
         image: meameise/meak8-webapp:latest
         ports:
-        - containerPort: 8082
+        - containerPort: 80
